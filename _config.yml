@@ -1,0 +1,13 @@
+assets:
+  sources:
+    - _assets/stylesheets
+    - _assets/javascripts
+    - _assets/images
+    - _vendor/bootstrap-sass/vendor/assets/javascripts
+    - _vendor/bootstrap-sass/vendor/assets/stylesheets
+    - _vendor/bootstrap-sass/vendor/assets/images
+  precompile:
+    - application.css
+    - .png|.jpg|.jpeg|.gif
+    - application.js
+
