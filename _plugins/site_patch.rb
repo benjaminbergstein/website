@@ -15,9 +15,14 @@ module Jekyll
       assets.each_file do |f|
         base, ext = f.basename, f.extname
         self.config['assets']['precompile'].each do |exp|
-          if base.to_s =~ Regexp.compile(exp)
+          if Numeric === (Regexp.compile(exp) =~ base.to_s)
             asset = assets.find_asset(f.to_s)
-            asset.write_to(File.join(dest, asset.logical_path))
+            pathname = asset.pathname.to_s
+            write_path = config['assets']['sources'].inject(false) do |memo, path|
+              index = pathname.index(path)
+              index ?  pathname[index + path.length..-1] : memo
+            end
+            asset.write_to(File.join(dest, write_path))
           end
         end
       end

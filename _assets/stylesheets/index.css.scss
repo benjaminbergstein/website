@@ -1,65 +1,59 @@
 #index {
   text-align: center;
-  padding: 10% 0 0;
+  padding: 3% 0 0;
+}
 
-  h1 {
-    font-family: tangerine;
-    font-size: 10em;
-    line-height: 1em;
-  }
+.homepage-headline {
+  font-size: 10em;
+}
 
-  h2 {
-    font-family: prenton;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 3em;
-    line-height: 3em;
-    letter-spacing: 10px;
-    position: relative;
-    left: 11px;
-    text-shadow: 0 2px 2px rgb(255, 255, 255);
-  }
+.homepage-title {
+  font-family: prenton;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3em;
+  line-height: 3em;
+  letter-spacing: 10px;
+  position: relative;
+  left: 11px;
+  text-shadow: 0 2px 2px rgb(255, 255, 255);
+}
 
-  h3 {
-    font-family: minion-pro;
-    padding: 0 200px;
-    line-height: 1.3em;
-    position: relative;
+.homepage-mission-statement {
+  font-family: minion-pro;
+  line-height: 1.3em;
+  position: relative;
+}
 
-    /*&:before {*/
-      /*content: "\201C";*/
-      /*display: block;*/
-      /*position: absolute;*/
-      /*right: 81.1%;*/
-      /*font-family: georgia;*/
-      /*font-size: 60px;*/
-      /*top: 0%;*/
-    /*}*/
+#homepage-links {
+  margin: 2em 0;
+  letter-spacing: 1em;
+}
 
+a.homepage-link {
+  font-size: 2.1em;
+  text-shadow: 0px 0px 7px #030303;
+  color: transparent;
+  transition-property: text-shadow;
+  transition-duration: .05s;
 
-    /*&:after {*/
-      /*content: "\201D";*/
-      /*display: block;*/
-      /*position: absolute;*/
-      /*left: 81.3%;*/
-      /*font-family: georgia;*/
-      /*font-size: 60px;*/
-      /*top: 100%;*/
-    /*}*/
-  }
-
-  p {
-    font-size: 1.2em;
-    margin: 100px 0;
-
-    a {
-      border-bottom: 1px solid rgb(134, 125, 125);
-      color: rgb(134, 125, 125);
-      padding-bottom: 5px;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
+  &:hover {
+    text-shadow: 0 0 3px rgba(255, 245, 0, .95), 0 0 7px #030303;
   }
 }
+
+/*p {*/
+  /*font-size: 1.2em;*/
+  /*margin: 100px 0;*/
+
+  /*a {*/
+    /*border-bottom: 1px solid rgb(134, 125, 125);*/
+    /*color: rgb(134, 125, 125);*/
+    /*padding-bottom: 5px;*/
+
+    /*&:hover {*/
+      /*text-decoration: none;*/
+    /*}*/
+  /*}*/
+/*}*/
+
