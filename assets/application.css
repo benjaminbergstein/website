@@ -10,7 +10,7 @@
   font-weight: 300;
   text-transform: uppercase;
   font-size: 3em;
-  line-height: 3em;
+  line-height: 1.3em;
   letter-spacing: 10px;
   position: relative;
   left: 11px;
@@ -88,4 +88,18 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: tangerine;
   line-height: 1em;
   margin-bottom: 0.2em; }
+
+@media (max-width: 500px) {
+  body {
+    font-size: 0.38em; }
+
+  .homepage-title {
+    font-size: 1.4em;
+    line-height: 5em;
+    font-weight: 900; }
+
+  .homepage-mission-statement {
+    font-size: 3.5em;
+    font-weight: 100;
+    line-height: 1.4em; } }
 
