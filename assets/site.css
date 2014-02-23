@@ -33,12 +33,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 #index #missionStatement {
   font-family: minion-pro;
+  color: #303030;
   line-height: 1.3em;
   position: relative;
-  color: #303030;
+  left: -16px;
 }
 
 #index #links {
+  position: relative;
+  left: -10px;
   margin: 4em 0;
   letter-spacing: 1em;
 }
