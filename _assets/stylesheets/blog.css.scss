@@ -1,49 +1,49 @@
-#blog {
-  margin: 0;
-  padding: 0;
+// #blog {
+//   margin: 0;
+//   padding: 0;
 
-  body {
-    margin: 0;
-    padding: 0;
-    background: rgb(238, 237, 218);
-  }
+//   body {
+//     margin: 0;
+//     padding: 0;
+//     background: rgb(238, 237, 218);
+//   }
 
-  .ligature {
-    line-height: 1em;
-  }
+//   .ligature {
+//     line-height: 1em;
+//   }
 
-  h1 {
-    font-family: tangerine;
-    font-size: 8em;
-    line-height: 2em;
-    margin: 0;
-  }
+//   h1 {
+//     font-family: tangerine;
+//     font-size: 8em;
+//     line-height: 2em;
+//     margin: 0;
+//   }
 
-  hgroup {
-    text-align: center;
-  }
+//   hgroup {
+//     text-align: center;
+//   }
 
-  #content {
-    .container {
-      /*@include box-shadow(0 0 10px -6px black);*/
-      background: rgb(238, 238, 235);
-      padding: 30px;
-      /*@include border-top-right-radius(10px);*/
-      /*@include border-top-left-radius(10px);*/
-      min-height: 100%;
+//   #content {
+//     .container {
+//       @include box-shadow(0 0 10px -6px black);
+//       background: rgb(238, 238, 235);
+//       padding: 30px;
+//       /*@include border-top-right-radius(10px);*/
+//       /*@include border-top-left-radius(10px);*/
+//       min-height: 100%;
 
-      .post {
-        width: 58em;
-        margin: 3em auto;
+//       .post {
+//         width: 58em;
+//         margin: 3em auto;
 
-        h2 {
-          font-family: minion-pro;
-        }
+//         h2 {
+//           font-family: minion-pro;
+//         }
 
-        p {
-          line-height: 2em;
-        }
-      }
-    }
-  }
-}
+//         p {
+//           line-height: 2em;
+//         }
+//       }
+//     }
+//   }
+// }
