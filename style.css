@@ -6,11 +6,11 @@ h1, h2, h3, h4, h5, h6, p {
   color: #555;
 }
 
-#index {
+body {
   text-align: center;
 }
 
-#index #logo {
+h1 {
   margin: 0.45em 0 ;
   font-family: tangerine;
   font-size: 10em;
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
   color: #303030;
 }
 
-#index #title {
+h2 {
   margin: 1em 0;
   font-family: prenton;
   font-weight: 300;
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p {
   color: #303030;
 }
 
-#index #missionStatement {
+h3 {
   font-family: minion-pro;
   color: #303030;
   line-height: 1.3em;
@@ -39,14 +39,14 @@ h1, h2, h3, h4, h5, h6, p {
   left: -16px;
 }
 
-#index #links {
+div {
   position: relative;
   left: -10px;
   margin: 4em 0;
   letter-spacing: 1em;
 }
 
-#index #links > a {
+div > a {
   font-size: 2.1em;
   text-shadow: 0px 0px 7px #030303;
   color: transparent;
@@ -55,49 +55,6 @@ h1, h2, h3, h4, h5, h6, p {
   color: #303030;
 }
 
-#index #links > a:hover {
+div > a:hover {
   color: #FFF500;
 }
-
-#blog {
-  width: 66.67%;
-  margin: 0 auto 150px;
-  text-align: left;
-}
-
-#blog > h1 {
-  font-family: prenton;
-  margin: 0.5em 0;
-}
-
-#blog > p {
-  margin: 1em 0;
-  line-height: 1.5;
-  font-weight: 300;
-  letter-spacing: 0.3px;
-}
-
-#blog > code {
-  margin: 30px 0;
-}
-
-/*
-
-  @media (max-width: 500px) {
-    body {
-      font-size: 0.38em;
-    }
-
-    .homepage-title {
-      font-size: 1.4em;
-      line-height: 5em;
-      font-weight: 900;
-    }
-
-    .homepage-mission-statement {
-      font-size: 3.5em;
-      font-weight: 100;
-      line-height: 1.4em;
-    }
-  }
-*/

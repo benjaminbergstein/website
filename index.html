@@ -1,46 +1,49 @@
----
-layout: application
-title: Ben Bergstein's JavaScript, Ruby, HTML and CSS Blog Web Site
-description: Ben Bergstein's JavaScript, Ruby, HTML and CSS Blog Web Site
-id: index
----
+<html>
+  <head>
+    <title>Benjamin Bergstein: American Maverick</title>
+    <meta name="description" content="Benjamin Bergstein: American Maverick" />
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/css/foundation.css" type="text/css" rel="stylesheet" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" type="text/css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <h1>Benjamin Bergstein</h1>
+    <h2>American Maverick</h2>
 
+    <h3>
+      Expertise building beautiful, sophisticated
+      <br/>
+      products using frameworks and libraries
+      <br/>
+      built atop HTML, CSS, JavaScript and Ruby.
+    </h3>
 
-<h1 id="logo">
-  Benjamin Bergstein
-</h1>
+    <div>
+      <a href="http://www.github.com/benastan" alt="Github" title="Github">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="http://www.twitter.com/benbergstein" alt="Twitter" title="Twitter">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="http://www.linkedin.com/in/benbergstein/" alt="LinkedIn" title="LinkedIn">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </div>
 
-<h2 id="title">
-  Web Software Engineer
-</h2>
+    <script type="text/javascript" src="//use.typekit.net/rko3flb.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-31193988-1']);
+      _gaq.push(['_trackPageview']);
 
-<h3 id="missionStatement">
-  Expertise building beautiful, sophisticated
-  <br/>
-  products using frameworks and libraries
-  <br/>
-  built atop HTML, CSS, JavaScript and Ruby.
-</h3>
-
-<div id="links">
-  <!--<a href="/blog">&#xE310;</a>-->
-  <a href="http://www.github.com/benastan" alt="Github" title="Github">
-    <i class="fa fa-github"></i>
-  </a>
-  <a class="homepage-link" href="http://www.twitter.com/benbergstein" alt="Twitter" title="Twitter">
-    <i class="fa fa-twitter"></i>
-  </a>
-  <a class="homepage-link" href="http://www.linkedin.com/in/benbergstein/">
-    <i class="fa fa-linkedin"></i>
-  </a>
-</div>
-
-<div id="blog" class="hide">
-  {% for post in site.posts %}
-    <h1>
-      {{ post.title }}
-    </h1>
-
-    {{ post.content }}
-  {% endfor %}
-</div>
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
