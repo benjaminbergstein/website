@@ -37,12 +37,12 @@ h3 {
   font-size: 1.5em;
 }
 
-.american {
+#title {
   font-family: tangerine;
   text-shadow: 0 -2px 0 #49869c;
 }
 
-.maverick {
+#subtitle {
   font-family: prenton;
   font-weight: 300;
   text-transform: uppercase;
