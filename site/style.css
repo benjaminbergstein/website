@@ -49,3 +49,12 @@ h3 {
   letter-spacing: 10px;
   text-shadow: 0 2px 2px white;
 }
+
+#copyright {
+  font-size: .7em;
+  font-family: "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+}
