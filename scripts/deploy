@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-aws s3 sync ./site s3://$1 --acl public-read
+aws s3 sync ./docs s3://$1 --acl public-read
 aws s3 sync ../photography-portfolio/site s3://$1/photography --acl public-read
