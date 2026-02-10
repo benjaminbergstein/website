@@ -1,0 +1,12 @@
+{
+  "name": "website-2025",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "deploy": "wrangler pages publish . --project-name benjaminbergstein-com",
+    "preview": "wrangler pages dev . --project-name benjaminbergstein-com --local"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
